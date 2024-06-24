@@ -1,18 +1,21 @@
-[
-	{
-		"kind": "column",
-		"name": "HTML to Data URL",
-		"description": "Converts HTML to data URL",
-		"author": "Charlie Millson <hello@charliemillson.me>",
-		"params": [
-			{
-				"name": "htmlContent",
-				"displayName": "htmlContent",
-				"type": "string"
-			}
-		],
-		"result": {
-			"type": "string"
-		}
-	}
-]
+{
+  "name": "HTML to Data URL",
+  "description": "Converts HTML content to a data URL",
+  "parameters": [
+    {
+      "name": "htmlContent",
+      "type": "string"
+    },
+    {
+      "name": "startIndex",
+      "type": "number"
+    },
+    {
+      "name": "endIndex",
+      "type": "number"
+    }
+  ],
+  "result": {
+    "type": "string"
+  }
+}
